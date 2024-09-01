@@ -33,7 +33,13 @@ body {
     gap: 50px;
 }
 
-/* Info Items */
+/* Div Items */
+#div {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+
 #info {
   width: 20%;
   height: 100%;
@@ -113,6 +119,12 @@ body {
 }
 
 
+#main{
+  width: 80%;
+  height: 100%;
+  background-color: black;
+
+}
 /* Breaker Items */
 svg{
   width: 1000px;
