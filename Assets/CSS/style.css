@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy Light", sans-serif;
+  color: whitesmoke;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #111;
+}
+
+/* Navbar Items */
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+#nav a {
+  text-decoration: none;
+}
+
+#part2 {
+    display: flex;
+    gap: 50px;
+}
+
+/* Info Items */
+#info {
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  
+}
+
+.text1 {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text2{
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px; /* Adjust spacing between icons */
+}
+
+.social-item {
+  display: inline-block;
+}
+
+.social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: background 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background: royalblue; 
+  color: #fff;
+}
+
+.social-link i {
+  font-size: 20px; 
+}
+
+/* Custom Class */
+.pimage {
+  display: block; 
+  width: 75%; 
+  background-color: #007bff; 
+  border-radius: 50%; 
+  margin: 0 auto; 
+  padding: 1rem;
+    margin-bottom: 1.5rem; 
+}
+
+/* Responsive Image */
+.pimage {
+  max-width: 100%; 
+  height: auto; 
+}
+
+
+/* Breaker Items */
+svg{
+  width: 1000px;
+  height: 200px;
+  /* background-color: red; */
+}
